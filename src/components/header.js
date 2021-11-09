@@ -1,13 +1,21 @@
 // Import React //
-import React from 'react'
+import React from 'react';
+// Import React-Typed //
+import Typed from 'react-typed';
 
 const header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>I'm Hannah McDonald.</h1>
-                <h3>I'm an Atlanta based Full-Stack Web Developer.</h3>
-                <h3> Full-Stack Web Developer by day, Hiker && Runner by Night. </h3>
+                <div className="header-text">
+                    <h1>I'm Hannah McDonald.</h1>
+                    {/* React Typed npm package */}
+                    <Typed 
+                    className="typed-text"
+                    strings={["I'm an Atlanta based Full-Stack Web Developer."]}
+                    typeSpeed={50}
+                    />
+                </div>
             </div>
          </div>
          /* <div className="particle">

@@ -71,6 +71,33 @@ nav ul li {
   font-size: 5rem;
 }
 
+.header-text {
+  margin-top: 15%;
+}
+
+.typed-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-white)
+}
+
+/* Media Query for Header Styling */
+@media only screen and (max-width: 992px) {
+  .main-info h1 {
+    font-weight: 1000;
+    font-size: 4rem;
+  }
+  
+  .header-text {
+    margin-top: 30%;
+  }
+  
+  .typed-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-white)
+  }
+}
 
 /* ABOUT */
 
