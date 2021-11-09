@@ -1,9 +1,10 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/navbar"
 
 function App() {
   return (
-    <h2> React Portfolio </h2>
+    <Navbar/>
   );
 }
 
