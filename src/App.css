@@ -10,6 +10,7 @@ body {
 :root {
   --primary-white: #ffffff;
   --secondary-color: #137992;
+  --primary-dark: rgba(255,255,255,0)
 }
 
 /* NAVBAR */
@@ -26,16 +27,28 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
+  /* !important overrides bootstrap css for root color variables */
   color: var(--primary-white) !important;
   /* Spacing between navbar items */
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
 }
 
 /* Navbar link hover effects */
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
 .navbar-nav > li > a:hover {
   color: var(--secondary-color) !important;
+  border-top: 0.1875rem solid var(--secondary-color);
 }
+
+/* .navbar-toggler {
+  color: var(--primary-white)
+} */
 
 /* HEADER */
 
