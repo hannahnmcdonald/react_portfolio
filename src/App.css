@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+/* IMPORT Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+/* SET Font for entire Body */
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ROOT COLOR VARIABLES */
+:root {
+  --primary-white: #ffffff;
+  --secondary-color: #137992;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* NAVBAR */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  /* Spacing between navbar items */
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
+
+/* Navbar link hover effects */
+.navbar-nav > li > a:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* HEADER */
+
+/* ABOUT */
+
+/* PORTFOLIO */
+
+/* CONTACT */
+
+/* FOOTER */
