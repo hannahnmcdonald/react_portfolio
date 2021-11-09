@@ -9,7 +9,7 @@ body {
 /* ROOT COLOR VARIABLES */
 :root {
   --primary-white: #ffffff;
-  --secondary-color: #137992;
+  --secondary-color: #45457e;
   --primary-dark: rgba(255,255,255,0)
 }
 
@@ -47,6 +47,30 @@ nav ul li {
 }
 
 /* HEADER */
+
+.header-wrapper {
+  position: relative;
+  background: url(/src/img/headerimg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: var(--primary-white);
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-info h1 {
+  font-weight: 1000;
+  font-size: 5rem;
+}
+
 
 /* ABOUT */
 

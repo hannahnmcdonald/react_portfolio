@@ -1,7 +1,8 @@
+// Import React //
 import React from 'react'
 // React Font Awesome Import //
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// Hamburger menu svg icon
+// Hamburger menu svg icon //
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 // NAVBAR //
@@ -38,4 +39,5 @@ const navbar = () => {
     )
 }
 
+// Export Navbar //
 export default navbar 
