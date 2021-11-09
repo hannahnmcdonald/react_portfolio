@@ -1,4 +1,8 @@
 import React from 'react'
+// React Font Awesome Import //
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// Hamburger menu svg icon
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 // NAVBAR //
 const navbar = () => {
@@ -6,7 +10,8 @@ const navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             {/* Navbar Hamburger Menu for mobile responsivity */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span className="navbar-toggler-icon"></span>
+                 {/* IMPORT Font Awesome Bars SVG Icon */}
+                 < FontAwesomeIcon icon = {faBars} style = {{ color: '#ffffff'}}/>
             </button>
             <div className="container">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
