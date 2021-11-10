@@ -10,7 +10,7 @@ body {
 /* ROOT COLOR VARIABLES */
 :root {
   --primary-white: #ffffff;
-  --secondary-color: #45457e;
+  --secondary-color: #54547a;
   --primary-dark: rgba(255,255,255,0);
   --background-color: rgb(26, 29, 29);
 }
@@ -142,3 +142,25 @@ nav ul li {
 /* CONTACT */
 
 /* FOOTER */
+
+.footer-container{
+  color: var(--primary-white);
+  text-align: center;
+}
+
+.icons {
+  color: var(--primary-white);
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1.75rem;
+  margin-left: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.icons:hover {
+  color: var(--background-color) !important;
+}
+
+footer {
+  background-color: var(--secondary-color);
+}
