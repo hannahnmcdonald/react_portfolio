@@ -23,6 +23,7 @@ const navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link">About</a>
                         </li>
+                        {/* TO DO: Future skills section with logos per each technology, ie: reactjs, nodejs, express... */}
                         {/* <li className="nav-item">
                             <a className="nav-link">Skills</a>
                         </li> */}

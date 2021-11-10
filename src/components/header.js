@@ -2,30 +2,34 @@
 import React from 'react';
 // Import React-Typed //
 import Typed from 'react-typed';
+// Import Particles //
+import Particles from 'react-particles-js';
+import particles from '../const/particle';
 
 const header = () => {
     return (
         <div className="header-wrapper">
             {/* <div id="particles-js"></div> */}
-            <div className="main-info">
-                <div className="header-text">
-                    <h1>I'm Hannah McDonald.</h1>
-                    {/* React-Typed npm package */}
-                    <Typed 
-                    className="typed-text"
-                    strings={["I'm an Atlanta based Full-Stack Web Developer."]}
-                    typeSpeed={50}
-                    />
+            {/* Particles npm package */}
+            <div className="row banner">
+                <div className="main-info banner-text" id="overlay">
+                    <div className="header-text responsive-headline">
+                        <h1 className="responsive-headline"> I'm Hannah McDonald.</h1>
+                        {/* React-Typed npm package */}
+                        <Typed 
+                        className="typed-text"
+                        strings={["I'm an Atlanta based Full-Stack Web Developer."]}
+                        typeSpeed={50}
+                        />
+                    </div>
                 </div>
-            </div>
-                {/* Particles npm package */}
-                {/* <div className="particle">
-                    <Particles
+                <div className="particle">
+                <Particles
                     params={particles}
                     className="particles"
                     />
-                </div>  */}
-            {/* <div id="particles-js"></div> */}
+            </div> 
+            </div>
          </div>
     )
 }
