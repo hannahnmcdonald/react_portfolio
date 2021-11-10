@@ -23,6 +23,9 @@ const navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link">About</a>
                         </li>
+                        {/* <li className="nav-item">
+                            <a className="nav-link">Skills</a>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link">Work</a>
                         </li>
