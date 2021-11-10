@@ -133,7 +133,11 @@ nav ul li {
 }
 
 
-/* PORTFOLIO */
+/* WORK */
+
+.work-container {
+  color: var(--primary-white)
+}
 
 /* CONTACT */
 

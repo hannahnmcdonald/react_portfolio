@@ -6,7 +6,7 @@ import author from "../img/aboutme.jpg";
 const about = () => {
     return (
         
-        <div className="container about-container">
+        <div className="container py-5 about-container">
            <div classname="row">
                <div className="col-lg-6 col-xm-12">
                     <img className="about-img" src={author} alt="author"></img>
