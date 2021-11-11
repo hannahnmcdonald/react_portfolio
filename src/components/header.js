@@ -9,13 +9,12 @@ import particles from '../const/particle';
 const header = () => {
     return (
         <div className="header-wrapper">
-            {/* <div id="particles-js"></div> */}
             {/* Particles npm package */}
             <div className="particle">
                 <Particles
                     params={particles}
                     className="particles"
-                    />
+                />
             </div> 
             <div className="row banner">
                 <div className="main-info banner-text" id="overlay">
