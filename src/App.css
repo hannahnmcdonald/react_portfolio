@@ -200,8 +200,72 @@ a.button.download:hover {
 
 /* CONTACT */
 
+.contact {
+  background-color: var(--secondary-color);
+  padding: 3rem 0;
+}
 
+.contact h1 {
+  color: var(--primary-white);
+  padding: 0.5rem 0;
+}
 
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255,255,255,0.55);
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--primary-white);
+  border-radius: 1rem;
+  color: var(--primary-white);
+  outline: 0 !important;
+  box-shadow: none !important;
+  top: 0;
+}
+
+div.container {
+  text-align: center;
+}
+
+.contact input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.contact-btn {
+  background-color: rgb(255,255,255,0.5);
+  color: var(--primary-white);
+  font-weight: 500;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+button.contact-btn:hover {
+  color: var(--primary-white);
+  background-color: var(--neutral-color);
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: rgb(255,255,255,0.75);
+  color: var(--black);
+  font-size: 1.25rem;
+  border-bottom: 2px solid var(--primary-white);
+}
+
+input::placeholder, textarea::placeholder {
+  font-size: 1.25rem;
+}
+
+.contact textarea {
+  height: 9.5rem !important;
+  margin: 1rem 0;
+
+}
 
 /* FOOTER */
 
