@@ -13,6 +13,8 @@ body {
   --secondary-color: #54547a;
   --primary-dark: rgba(255,255,255,0);
   --background-color: rgb(26, 29, 29);
+  --neutral-color: #26242c;
+  --black: #000000;
 }
 
 /* NAVBAR */
@@ -171,8 +173,59 @@ header .particles {
 
 /* WORK */
 
-.work-container {
+.text-uppercase {
   color: var(--primary-white)
+}
+
+.portfolio-wrapper {
+  background-color: var(--neutral-color);
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 25rem;
+  border: 1px solid var(--primary-white);
+  padding: 0 0.5 rem;
+}
+
+.portfolio-image-box {
+  position:relative;
+  margin: 1rem;
+}
+
+/* .image-box-wrapper {
+
+} */
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--black);
+  width: 25rem;
+  height: 12.2rem;
+  top: 0;
+  border: 1px solid var(--neutral-color);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-white);
+  font-size: 1.5rem;
+}
+
+.portfolio-icon:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 /* RESUME */
@@ -193,12 +246,13 @@ h1 {
 
 .download {
   text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 
 a.button.download:hover {
   cursor: pointer;
-  /* TO DO HOVER EFFECT */
+  /* TO DO: HOVER EFFECT */
 }
 
 /* CONTACT */
@@ -223,9 +277,9 @@ a.button.download:hover {
 }
 
 .icons:hover {
-  color: var(--background-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 footer {
-  background-color: var(--secondary-color);
+  background-color: var(--neutral-color);
 }
