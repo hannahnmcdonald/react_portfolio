@@ -1,4 +1,4 @@
 # react_portfolio
 
-Deployed: link
+Deployed: https://hannahnmcdonald.github.io/react_portfolio/
 
