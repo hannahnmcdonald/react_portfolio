@@ -1,7 +1,7 @@
 const particles = {
     "particles": {
       "number": {
-        "value": 130,
+        "value": 80,
         "density": {
           "enable": true,
           "value_area": 800
@@ -30,7 +30,7 @@ const particles = {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 0.5,
           "opacity_min": 0.1,
           "sync": false
         }
