@@ -8,7 +8,7 @@ import {useForm} from "react-hook-form";
 const Contact = () => {
 
     const [successMessage, setSuccessMessage] = useState("");
-    const { register, handleSubmit, errors } = useForm();
+    const { register, handleSubmit, error } = useForm();
 
     const serviceID = "service_wsmwm9a";
     const templateID = "template_ID";
@@ -64,7 +64,7 @@ const Contact = () => {
                             }
                             />
                             {/* <span className="error-message">
-                                {errors.name && errors.name.message}
+                                {error.name && error.name.message}
                             </span> */}
                             {/* Email */}
                             <input 
@@ -128,6 +128,11 @@ const Contact = () => {
                     <button className="btn contact-btn" type="submit">
                         Submit
                     </button>
+                    {/* {error && (
+                    <div>
+                        <p className="error-text">{error}</p>
+                    </div>
+                )} */}
                 </form>
             </div>
         </div>

@@ -11,6 +11,12 @@ const header = () => {
         <div className="header-wrapper">
             {/* <div id="particles-js"></div> */}
             {/* Particles npm package */}
+            <div className="particle">
+                <Particles
+                    params={particles}
+                    className="particles"
+                    />
+            </div> 
             <div className="row banner">
                 <div className="main-info banner-text" id="overlay">
                     <div className="header-text responsive-headline">
@@ -23,12 +29,6 @@ const header = () => {
                         />
                     </div>
                 </div>
-                <div className="particle">
-                <Particles
-                    params={particles}
-                    className="particles"
-                    />
-            </div> 
             </div>
          </div>
     )
