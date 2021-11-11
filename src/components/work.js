@@ -71,7 +71,7 @@ const work = () => {
               <div className="portfolio-wrap">
                 <img src={ blog } className="img-fluid" alt=""/>
                 <div className="portfolio-info">
-                  <h4>Tech Talk- A Tech Blog </h4>
+                  <h4>Tech Talk </h4>
                   <p></p>
                 </div>
                 <div className="portfolio-links">

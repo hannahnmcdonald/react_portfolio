@@ -1,7 +1,7 @@
 /* IMPORT Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap');
 
-/* SET Font for entire Body */
+/* SET Font & Background color for entire Body */
 body {
   font-family: 'Quicksand', sans-serif !important;
   background-color: var(--background-color) !important;
@@ -264,7 +264,11 @@ input::placeholder, textarea::placeholder {
 .contact textarea {
   height: 9.5rem !important;
   margin: 1rem 0;
+}
 
+.success-message {
+  font-weight: 900;
+  color: var(--primary-white);
 }
 
 /* FOOTER */
@@ -325,7 +329,7 @@ footer {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #5a656e;
+  color: var(--neutral-color);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
