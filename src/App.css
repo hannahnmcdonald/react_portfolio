@@ -182,6 +182,25 @@ canvas.tsparticles-canvas-el {
   }
 }
 
+/* SKILLS */
+
+div.skills-wrapper {
+  background-color: var(--secondary-color);
+  color: var(--primary-white);
+  padding-bottom: 3rem;
+}
+
+.display-4 {
+  margin: 2rem;
+}
+
+.display-4:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+
+
 /* RESUME */
 
 .button.download-button {
@@ -226,13 +245,13 @@ h1 {
 a.button.download:hover {
   cursor: pointer;
   color: var(--primary-white);
-  /* TO DO: HOVER EFFECT */
+  background-color: var(--secondary-color)
 }
 
 /* CONTACT */
 
 .contact {
-  background-color: var(--secondary-color);
+  background-color: var(--neutral-color);
   padding: 3rem 0;
 }
 
@@ -274,7 +293,7 @@ button.contact-btn {
 
 button.contact-btn:hover {
   color: var(--primary-white);
-  background-color: var(--neutral-color);
+  background-color: var(--secondary-color);
 }
 
 .contact .container {
@@ -319,11 +338,11 @@ input::placeholder, textarea::placeholder {
 }
 
 .icons:hover {
-  color: var(--secondary-color) !important;
+  color: var(--neutral-color) !important;
 }
 
 footer {
-  background-color: var(--neutral-color);
+  background-color: var(--secondary-color);
 }
 
 /* Work */

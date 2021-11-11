@@ -18,23 +18,23 @@ const navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
-                            <a className="nav-link">Home</a>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         {/* TO DO: Future skills section with logos per each technology, ie: reactjs, nodejs, express... */}
-                        {/* <li className="nav-item">
-                            <a className="nav-link">Skills</a>
-                        </li> */}
                         <li className="nav-item">
-                            <a className="nav-link">Work</a>
+                            <a className="nav-link" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">Resume</a>
+                            <a className="nav-link" href="#work">Work</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">Contact</a>
+                            <a className="nav-link" href="#resume">Resume</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>

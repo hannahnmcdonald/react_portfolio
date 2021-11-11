@@ -30,7 +30,7 @@ const particles = {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 1,
+          "speed": 0.25,
           "opacity_min": 0.1,
           "sync": false
         }
@@ -108,4 +108,4 @@ const particles = {
     }
   }
   
-  export default particles
+export default particles

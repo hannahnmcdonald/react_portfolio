@@ -8,7 +8,7 @@ import {useForm} from "react-hook-form";
 const Contact = () => {
 
     const [successMessage, setSuccessMessage] = useState("");
-    const { register, handleSubmit, error } = useForm();
+    const { register, handleSubmit } = useForm();
 
     const serviceID = "service_wsmwm9a";
     const templateID = "template_ID";

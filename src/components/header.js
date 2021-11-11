@@ -10,7 +10,7 @@ const header = () => {
     return (
         <div className="header-wrapper">
             {/* Particles npm package */}
-            <div className="particle">
+            <div className="particles">
                 <Particles
                     params={particles}
                     className="particles"
@@ -23,7 +23,7 @@ const header = () => {
                         {/* React-Typed npm package */}
                         <Typed 
                         className="typed-text"
-                        strings={["I'm an Atlanta based Full-Stack Web Developer."]}
+                        strings={["I'm an Atlanta based <b> Full-Stack Web Developer.</b>"]}
                         typeSpeed={50}
                         />
                     </div>
