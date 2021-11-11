@@ -20,9 +20,9 @@ function App() {
     <About/>
     <Skills/>
     <Work/>
+    <Resume/>
     <Contact/>
     <Footer/>
-    <Resume/>
     </>
   );
 }

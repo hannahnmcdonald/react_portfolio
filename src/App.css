@@ -143,6 +143,13 @@ header .particles {
   padding-top: 5rem;
 }
 
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Queries for About Styling */
 @media (max-width: 332px) {
   .about-img {
     width: 15rem;
@@ -162,20 +169,42 @@ header .particles {
   }
 }
 
-.photo-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 /* WORK */
 
 .work-container {
   color: var(--primary-white)
 }
 
+/* RESUME */
+
+a.button.download-button {
+  color: var(--primary-white);
+  text-decoration: none;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  background-color: rgb(255,255,255,0.5);
+  padding: 1rem;
+}
+
+h1 {
+  color: var(--primary-white);
+  padding: 2rem
+}
+
+.download {
+  text-align: center;
+}
+
+
+a.button.download:hover {
+  cursor: pointer;
+  /* TO DO HOVER EFFECT */
+}
+
 /* CONTACT */
+
+
+
 
 /* FOOTER */
 
