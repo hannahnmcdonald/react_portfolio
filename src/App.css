@@ -97,7 +97,7 @@ nav ul li {
 }
 
 /* React Particles */
-header .particles {
+header.particles {
   position: absolute !important;
   left: 0;
   top: 0;

@@ -4,6 +4,12 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // Hamburger menu svg icon //
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+// Import React-scroll //
+import { Link } from 'react-scroll';
+// Import Scroll to Top npm //
+import ScrollToTop from "react-scroll-to-top";
+// React-Icons //
+import { BsArrowUpCircle } from 'react-icons/bs';
 
 // NAVBAR //
 const navbar = () => {
@@ -17,24 +23,26 @@ const navbar = () => {
             <div className="container">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
+                        {/* <li className="nav-item">
+                            <Link smooth={true} to "#" className="nav-link" href="/react_portfolio"> Home </Link>
+                        </li> */}
+                        
+                        {/* Scroll to top option */}
+                        <ScrollToTop smooth component={<BsArrowUpCircle/>} />
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Home</a>
+                            <Link smooth={true} to="about" className="nav-link" href="#">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">About</a>
-                        </li>
-                        {/* TO DO: Future skills section with logos per each technology, ie: reactjs, nodejs, express... */}
-                        <li className="nav-item">
-                            <a className="nav-link" href="#skills">Skills</a>
+                            <Link smooth={true} to="skills" className="nav-link" href="#">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#work">Work</a>
+                            <Link smooth={true} to="work" className="nav-link" href="#">Work</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#resume">Resume</a>
+                            <Link smooth={true} to="resume" className="nav-link" href="#r">Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contact</a>
+                            <Link smooth={true} to="contact" className="nav-link" href="#">Contact</Link>
                         </li>
                     </ul>
                 </div>
