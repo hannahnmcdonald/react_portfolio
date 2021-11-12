@@ -23,26 +23,22 @@ const navbar = () => {
             <div className="container">
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
-                        {/* <li className="nav-item">
-                            <Link smooth={true} to "#" className="nav-link" href="/react_portfolio"> Home </Link>
-                        </li> */}
-                        
                         {/* Scroll to top option */}
                         <ScrollToTop smooth component={<BsArrowUpCircle/>} />
                         <li className="nav-item">
-                            <Link smooth={true} to="about" className="nav-link" href="#">About</Link>
+                            <Link smooth={true} to="about" className="nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="skills" className="nav-link" href="#">Skills</Link>
+                            <Link smooth={true} to="work" className="nav-link">Work</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="work" className="nav-link" href="#">Work</Link>
+                            <Link smooth={true} to="skills" className="nav-link">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="resume" className="nav-link" href="#r">Resume</Link>
+                            <Link smooth={true} to="resume" className="nav-link" >Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="contact" className="nav-link" href="#">Contact</Link>
+                            <Link smooth={true} to="contact" className="nav-link">Contact</Link>
                         </li>
                     </ul>
                 </div>

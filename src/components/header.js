@@ -3,7 +3,7 @@ import React from 'react';
 // Import React-Typed //
 import Typed from 'react-typed';
 // Import Particles //
-import Particles from 'react-particles-js';
+import { Particles } from 'react-particles-js';
 import particles from '../const/particle';
 
 const header = () => {
