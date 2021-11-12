@@ -29,7 +29,7 @@ const navbar = () => {
                             <Link smooth={true} to="about" className="nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="work" className="nav-link">Work</Link>
+                            <Link smooth={true} to="work" className="nav-link" >Work</Link>
                         </li>
                         <li className="nav-item">
                             <Link smooth={true} to="skills" className="nav-link">Skills</Link>

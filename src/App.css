@@ -346,7 +346,7 @@ footer {
 
 .portfolio {
   background-color: var(--neutral-color);
-  padding: 3rem;
+  padding: 4rem;
 }
 
 .portfolio-links {
@@ -539,11 +539,3 @@ svg.icons.portfolio-icon {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
-.desc {
-  text-transform: lowercase;
-}
-
-/* .portfolio-links:hover{
-  color: white;
-} */

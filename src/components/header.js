@@ -9,7 +9,7 @@ import particles from '../const/particle';
 const header = () => {
     return (
         <div className="header-wrapper">
-            {/* Particles npm package */}
+            {/* React Particles.js npm package */}
             <div className="particles">
                 <Particles
                     params={particles}
