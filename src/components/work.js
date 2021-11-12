@@ -103,8 +103,8 @@ const work = () => {
                   <p></p>
                 </div>
                 <div className="portfolio-links">
-                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
+                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
                 </div>
               </div>
             </div>
