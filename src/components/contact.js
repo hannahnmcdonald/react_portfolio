@@ -1,14 +1,19 @@
 // Import React //
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 // Import EmailJS npm //
 import emailjs from "emailjs-com";
 // Import React Hook Form npm //
 import {useForm} from "react-hook-form";
+// Import error message from @ hookform-error/message //
+import { ErrorMessage } from '@hookform/error-message';
 
 const Contact = () => {
 
+    const form = useRef();
     const [successMessage, setSuccessMessage] = useState("");
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm({
+        criteriaMode: 'all',
+    });
 
     const serviceID = "service_wsmwm9a";
     const templateID = "template_ID";
@@ -32,8 +37,8 @@ const Contact = () => {
     }
 
 
-    const sendEmail = (serviceID, templateID, variables, userID) => {
-        emailjs.send(serviceID, templateID, variables, userID)
+    const sendEmail = () => {
+        emailjs.send(serviceID, templateID, form.current, userID)
           .then(() => {
             setSuccessMessage("Form sent successfully! I'll contact you soon!");
           }).catch(err => console.error(`Something went wrong ${err}`));
@@ -43,9 +48,11 @@ const Contact = () => {
         <div className= "contact">
             <div className="text-center">
                 <h1> Contact </h1>
+                {/* Success Message when form is successfully sent */}
                 <span className="success-message"> { successMessage } </span>
             </div>
             <div className="container">
+                {/* Form Submit */}
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row"> 
                         <div className="col-md-6 col-xs-12">
@@ -54,13 +61,25 @@ const Contact = () => {
                             id="name"
                             type="text"
                             className="form-control"
-                            placeholder="name"
+                            placeholder="Name"
                             name="name"
-                            ref= {
-                                register("name",
-                                {
-                                    required: "Please enter your name"
-                                })
+                            {...register("Name", 
+                            { required: true, 
+                                maxLength:20,
+                                pattern: {
+                                    message: 'Please enter a valid name',
+                                }
+                            })}
+                            />
+                            {/* {errors.firstName && <p>Please enter your name</p>} */}
+                            <ErrorMessage
+                                errors={errors}
+                                name="multipleErrorInput"
+                                render={({ messages }) =>
+                                messages &&
+                                Object.entries(messages).map(([type, message]) => (
+                                    <p className="error-message" key={type}>{message}</p>
+                                ))
                             }
                             />
                             {/* <span className="error-message">
@@ -71,36 +90,54 @@ const Contact = () => {
                             id="email"
                             type="email"
                             className="form-control"
-                            placeholder="email"
+                            placeholder="Email"
                             name="email"
-                            ref= {
-                                register("email",
-                                {
-                                    required: "Please enter your email",
-                                    pattern: {
-                                        // Email Regex //
-                                        value: /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/,
-                                        message: "Invalid Email"
-                                    }
-                                })
-                            }
+                            {...register("Email", 
+                            { required: true, 
+                                pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ 
+                            })}
+                            // ref= {
+                            //     register("email",
+                            //     {
+                            //         required: "Please enter your email",
+                            //         pattern: {
+                            //             // Email Regex //
+                            //             value: /^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/,
+                            //             message: "Invalid Email"
+                            //         }
+                            //     })
+                            // }
                             />
-                            {/* <span className="error-message">
-                                {errors.email && errors.email.message}
-                            </span> */}
+                            {/* {errors.email && <p>Please check that the email is correct</p>} */}
+                            <ErrorMessage
+                                errors={errors}
+                                name="multipleErrorInput"
+                                render={({ messages }) =>
+                                messages &&
+                                Object.entries(messages).map(([type, message]) => (
+                                    <p className="error-message" key={type}>{message}</p>
+                                    ))
+                                }
+                            />
                             {/* Subject */}
                             <input 
                             id="subject"
                             type="text"
                             className="form-control"
-                            placeholder="subject"
+                            placeholder="Subject"
                             name="subject"
-                            ref= {
-                                register("subject",
-                                {
-                                    required: "Please enter the subject",
-                                })
-                            }
+                            {...register("Subject", {required: "Please add the subject"})}
+                            />
+                            {/* {errors.email && <p>Please enter a subject</p>} */}
+                            <ErrorMessage
+                                errors={errors}
+                                name="multipleErrorInput"
+                                render={({ messages }) =>
+                                messages &&
+                                Object.entries(messages).map(([type, message]) => (
+                                    <p className="error-message" key={type}>{message}</p>
+                                    ))
+                                }
                             />
                             {/* <span className="error-message">
                                 {errors.subject && errors.subject.message}
@@ -111,15 +148,21 @@ const Contact = () => {
                             <textarea
                             id="message"
                             className="form-control"
-                            placeholder="message"
+                            placeholder="Message"
                             name="message"
-                            ref= {
-                                register("message",
-                                {
-                                    required: "Please enter your message",
-                                })
-                            }
+                            {...register("Message", {required: "please fill out the form"})}
                             ></textarea>
+                            {/* {errors.email && <p>Please enter your message</p>} */}
+                            <ErrorMessage
+                                errors={errors}
+                                name="multipleErrorInput"
+                                render={({ messages }) =>
+                                messages &&
+                                Object.entries(messages).map(([type, message]) => (
+                                    <p className="error-message" key={type}>{message}</p>
+                                    ))
+                                }
+                            />
                             {/* <span className="error-message">
                                 {errors.message && errors.message.message}
                             </span> */}
@@ -128,11 +171,6 @@ const Contact = () => {
                     <button className="btn contact-btn" type="submit">
                         Submit
                     </button>
-                    {/* {error && (
-                    <div>
-                        <p className="error-text">{error}</p>
-                    </div>
-                )} */}
                 </form>
             </div>
         </div>
