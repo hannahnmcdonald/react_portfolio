@@ -4,13 +4,13 @@ import React from 'react';
 import Typed from 'react-typed';
 // Import Particles //
 import Particles from 'react-particles-js';
-import particles from '../const/particle';
+import particles from '../const/particles';
 
 const header = () => {
     return (
         <div className="header-wrapper">
             {/* React Particles.js npm package */}
-            <div className="particles">
+            <div>
                 <Particles
                     params={particles}
                     className="particles"
