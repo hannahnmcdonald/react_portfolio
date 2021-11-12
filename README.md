@@ -29,6 +29,7 @@
 1. [react scroll](https://www.npmjs.com/package/react-scroll)
 1. [react-scroll-to-top](https://www.npmjs.com/package/react-scroll-to-top)
 1. [react-typed](https://www.npmjs.com/package/react-typed)
+1. [React Hook Error Form](https://www.npmjs.com/package/@hookform/error-message)
 
 && [emailjs](emailjs.com) for contact form.
 
