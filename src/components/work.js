@@ -30,7 +30,7 @@ const work = () => {
                 <img src={ book } className="img-fluid" alt="Book Club COllective"/>
                 <div className="portfolio-info">
                   <h4>Book Club Collective</h4>
-                  <p></p>
+                  <p className="desc">A full stack app where users can search for books using Google’s book API, leave reviews, and join book clubs with other readers.<b>Technologies: Handlebars, Node.js, MySQL, Sequelize, Express, and bcrypt.</b></p>
                 </div>
                 <div class="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
@@ -44,7 +44,7 @@ const work = () => {
                 <img src={ heyo } className="img-fluid" alt="Heyo"/>
                 <div className="portfolio-info">
                   <h4>Heyo! Simple Strategic Moves</h4>
-                  <p></p>
+                  <p className="desc">An intuitive real estate app that helps home-buyers search for listings in their area by criteria and plots them on the map.<b>Technologies: Javascript, HTML, CSS, Google Maps API, Zillow API</b></p>
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Heyo-Simple-Strategic-Moves" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
@@ -58,7 +58,7 @@ const work = () => {
                 <img src={ weather } className="img-fluid" alt="weather dashboard app"/>
                 <div className="portfolio-info">
                   <h4>Weather Dashboard</h4>
-                  <p></p>
+                  <p>Intuitive weather dashboard application that searches for the weather forecast by zip code & provides the 5-day forecast including temperature, humidity, wind speed, and UV index.</p>
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/WeatherDashboard" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
@@ -72,7 +72,7 @@ const work = () => {
                 <img src={ blog } className="img-fluid" alt="Tech Blog"/>
                 <div className="portfolio-info">
                   <h4>Tech Talk </h4>
-                  <p></p>
+                  <p className="desc">A CMS-style blog site, where developers can publish blog posts and comment on other developers’ posts. Site is deployed to Heroku. <b>Technologies: Handlebars, Sequelize, Express, MySQL, and Node.js</b></p>
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Tech-Talk" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
@@ -86,7 +86,7 @@ const work = () => {
                 <img src= { fitness } className="img-fluid" alt="Fitness Tracker"/>
                 <div className="portfolio-info">
                   <h4>Fitness Tracker</h4>
-                  <p></p>
+                  <p>Focus on your fitness goals with with an app that keeps track of your progress. <b>Technologies: Js, Node, MongoDB Atlas, Mongoose, Express</b></p>
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/FitnessFocus" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
@@ -100,7 +100,7 @@ const work = () => {
                 <img src= { expanse } className="img-fluid" alt="Quiz"/>
                 <div className="portfolio-info">
                   <h4>The Expanse Trivia Quiz</h4>
-                  <p></p>
+                  <p>Play this timed quiz game for the hit sci-fi series 'The Expanse.' This quiz follows questions from seasons 1-5. Test your knowledge, save your high score, and play against your friends!</p>
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
