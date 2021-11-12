@@ -63,7 +63,7 @@ const Contact = () => {
                             className="form-control"
                             placeholder="Name"
                             name="name"
-                            {...register("Name", 
+                            {...register("name", 
                             { required: true, 
                                 maxLength:20,
                                 pattern: {
@@ -92,9 +92,12 @@ const Contact = () => {
                             className="form-control"
                             placeholder="Email"
                             name="email"
-                            {...register("Email", 
+                            {...register("email", 
                             { required: true, 
-                                pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ 
+                                pattern: {
+                                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                                    message: "Email is invalid"
+                                }
                             })}
                             // ref= {
                             //     register("email",
@@ -126,7 +129,7 @@ const Contact = () => {
                             className="form-control"
                             placeholder="Subject"
                             name="subject"
-                            {...register("Subject", {required: "Please add the subject"})}
+                            {...register("subject", {required: "Please add the subject"})}
                             />
                             {/* {errors.email && <p>Please enter a subject</p>} */}
                             <ErrorMessage
@@ -150,7 +153,9 @@ const Contact = () => {
                             className="form-control"
                             placeholder="Message"
                             name="message"
-                            {...register("Message", {required: "please fill out the form"})}
+                            {...register("message", 
+                                {required: "please fill out the form"
+                            })}
                             ></textarea>
                             {/* {errors.email && <p>Please enter your message</p>} */}
                             <ErrorMessage
