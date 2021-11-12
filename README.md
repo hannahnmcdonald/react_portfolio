@@ -1,4 +1,4 @@
-# React Portfolio
+# Hannah McDonald's Portfolio Made With React 
 
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
