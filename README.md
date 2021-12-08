@@ -4,7 +4,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
-![Screenshot](./src/img/homescreenshot.png)
+![Screenshot](./src/img/homescreenshotportfolio.png)
 
 
 ## Table of Contents
