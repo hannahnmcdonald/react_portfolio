@@ -4,7 +4,7 @@ import React from 'react';
 import book from "../img/book.png"
 import heyo from "../img/heyo.png"
 import blog from "../img/blog.png"
-import fitness from "../img/fitness.png"
+import checkmate from "../img/homescreenshot.png"
 import expanse from "../img/expanse.png"
 import weather from "../img/weather.png"
 // React-Icons //
@@ -35,6 +35,34 @@ const work = () => {
                 <div class="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
                     <a href="https://intense-tor-64466.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div className="portfolio-wrap">
+                <img src= { checkmate } className="img-fluid" alt="Check-Mate"/>
+                <div className="portfolio-info">
+                  <h4>Check Mate</h4>
+                  <p>CheckMate is the app to keep track of your game nights with friends and family! <b>Technologies: Js, MongoDB, Apollo, GraphQL, React, MaterialUI</b></p>
+                </div>
+                <div className="portfolio-links">
+                    <a href="https://github.com/hannahnmcdonald/check-mate" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
+                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div className="portfolio-wrap">
+                <img src= { expanse } className="img-fluid" alt="Quiz"/>
+                <div className="portfolio-info">
+                  <h4>The Expanse Trivia Quiz</h4>
+                  <p>Play this timed quiz game for the hit sci-fi series 'The Expanse.' This quiz follows questions from seasons 1-5. Test your knowledge, save your high score, and play against your friends!</p>
+                </div>
+                <div className="portfolio-links">
+                    <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
+                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
                 </div>
               </div>
             </div>
@@ -80,34 +108,7 @@ const work = () => {
                 </div>
               </div>
             </div>
-  
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div className="portfolio-wrap">
-                <img src= { fitness } className="img-fluid" alt="Fitness Tracker"/>
-                <div className="portfolio-info">
-                  <h4>Fitness Tracker</h4>
-                  <p>Focus on your fitness goals with with an app that keeps track of your progress. <b>Technologies: Js, Node, MongoDB Atlas, Mongoose, Express</b></p>
-                </div>
-                <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/FitnessFocus" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://fitness-focus.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                </div>
-              </div>
-            </div>
-  
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div className="portfolio-wrap">
-                <img src= { expanse } className="img-fluid" alt="Quiz"/>
-                <div className="portfolio-info">
-                  <h4>The Expanse Trivia Quiz</h4>
-                  <p>Play this timed quiz game for the hit sci-fi series 'The Expanse.' This quiz follows questions from seasons 1-5. Test your knowledge, save your high score, and play against your friends!</p>
-                </div>
-                <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                </div>
-              </div>
-            </div>
+
   
           </div>
   
