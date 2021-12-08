@@ -17,7 +17,8 @@ import {
     SiSequelize,
     SiGraphql,
     SiJavascript,
-    SiHandlebarsdotjs
+    SiHandlebarsdotjs,
+    siMaterialui
 } from "react-icons/si";
 
 const skills = () => {
@@ -41,6 +42,7 @@ const skills = () => {
                         <SiGraphql className="display-4" title="GraphQL"/>
                         <SiJavascript className="display-4" title="Javascript"/>
                         <SiHandlebarsdotjs className="display-4" title="Handlebars"/>
+                        <SiMaterialui className="display-4" title="Material UI"/>
                     </div>
                 </div>
             </div>
