@@ -4,7 +4,7 @@ import React from 'react';
 import book from "../img/book.png"
 import heyo from "../img/heyo.png"
 import blog from "../img/blog.png"
-import checkmate from "../img/homescreenshot.png"
+import checkmate from "../img/profile.png"
 import expanse from "../img/expanse.png"
 import weather from "../img/weather.png"
 // React-Icons //
