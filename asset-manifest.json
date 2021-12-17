@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.1512c8c6.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.28ad7d45.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.28ad7d45.chunk.js.map",
+    "main.css": "/react_portfolio/static/css/main.3841eabb.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.7a4f2034.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.7a4f2034.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.d682715c.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.d682715c.js.map",
     "static/css/2.383c0125.chunk.css": "/react_portfolio/static/css/2.383c0125.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.b299436e.chunk.js.map": "/react_portfolio/static/js/3.b299436e.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
     "static/css/2.383c0125.chunk.css.map": "/react_portfolio/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.1512c8c6.chunk.css.map": "/react_portfolio/static/css/main.1512c8c6.chunk.css.map",
+    "static/css/main.3841eabb.chunk.css.map": "/react_portfolio/static/css/main.3841eabb.chunk.css.map",
     "static/js/2.62091b60.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.62091b60.chunk.js.LICENSE.txt",
     "static/media/aboutme.75dbf44a.jpg": "/react_portfolio/static/media/aboutme.75dbf44a.jpg",
     "static/media/blog.4e3e634d.png": "/react_portfolio/static/media/blog.4e3e634d.png",
@@ -20,14 +20,14 @@
     "static/media/expanse.1d0b2b5a.png": "/react_portfolio/static/media/expanse.1d0b2b5a.png",
     "static/media/App.css": "/react_portfolio/static/media/headerimg.bbd74cab.jpg",
     "static/media/heyo.a3816b79.png": "/react_portfolio/static/media/heyo.a3816b79.png",
-    "static/media/homescreenshot.16057991.png": "/react_portfolio/static/media/homescreenshot.16057991.png",
+    "static/media/profile.624b2881.png": "/react_portfolio/static/media/profile.624b2881.png",
     "static/media/weather.9086b15c.png": "/react_portfolio/static/media/weather.9086b15c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d682715c.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.62091b60.chunk.js",
-    "static/css/main.1512c8c6.chunk.css",
-    "static/js/main.28ad7d45.chunk.js"
+    "static/css/main.3841eabb.chunk.css",
+    "static/js/main.7a4f2034.chunk.js"
   ]
 }
