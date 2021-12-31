@@ -48,7 +48,7 @@ const work = () => {
                 </div>
                 <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/check-mate" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://checkmate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
                 </div>
               </div>
             </div>
