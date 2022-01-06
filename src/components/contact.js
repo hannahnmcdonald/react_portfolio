@@ -48,6 +48,7 @@ const Contact = () => {
         <div className= "contact">
             <div className="text-center">
                 <h1> Contact </h1>
+                    <h6> Submit your message or email me at hannahcodes@protonmail.com and I will get back to you as soon as I can. </h6>
                 {/* Success Message when form is successfully sent */}
                 <span className="success-message"> { successMessage } </span>
             </div>
