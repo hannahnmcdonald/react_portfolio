@@ -35,7 +35,7 @@
 
 ## Usage
 
-Deployed site: https://hannahnmcdonald.github.io/react_portfolio/
+Deployed site: https://hannahmcdonald.dev
 
 
 ## License
