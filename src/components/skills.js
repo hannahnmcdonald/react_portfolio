@@ -9,6 +9,7 @@ import {
     FaNpm,
     FaGitAlt,
     FaGithubSquare,
+    FaVuejs
   } from "react-icons/fa";
 import { 
     SiMysql, 
@@ -19,7 +20,9 @@ import {
     SiJavascript,
     SiHandlebarsdotjs,
     SiMaterialui,
-    SiApollographql
+    SiApollographql,
+    SiDotnet,
+    SiTypescript
 } from "react-icons/si";
 
 const skills = () => {
@@ -45,6 +48,9 @@ const skills = () => {
                         <SiHandlebarsdotjs className="display-4" title="Handlebars"/>
                         <SiMaterialui className="display-4" title="Material UI"/>
                         <SiApollographql className="display-4" title="Apollo GraphQL"/>
+                        <FaVuejs className="display-4" title="Vue.js"/>
+                        <SiDotnet className="display-4" title=".NET"/>
+                        <SiTypescript className="display-4" title="Typescript"/>
                     </div>
                 </div>
             </div>
