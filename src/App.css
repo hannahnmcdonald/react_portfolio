@@ -336,7 +336,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .icons:hover {
-  color: var(--neutral-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 footer {
