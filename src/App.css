@@ -269,6 +269,7 @@ a.download-button:hover {
 
 div.container {
   text-align: center;
+  justify-content: center;
 }
 
 .contact input {
@@ -376,6 +377,11 @@ svg.icons.portfolio-icon {
   color: var(--secondary-color)
 } */
 
+.justify-content-center {
+  justify-content: center;
+  align-self: center;
+}
+
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -384,7 +390,7 @@ svg.icons.portfolio-icon {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: var(--neutral-color);
+  background: var(--primary-white);
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -406,7 +412,7 @@ svg.icons.portfolio-icon {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: var(--neutral-color);
+  background: var(--primary-white);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -551,4 +557,8 @@ svg.icons.portfolio-icon {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.desc {
+  color: var(--primary-white);
 }
