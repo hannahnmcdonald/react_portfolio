@@ -14,13 +14,13 @@ const footer = () => {
                     <div className="twelve columns">
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/hannah-mcdonald-302292215/">
-                                <FaLinkedin className="icons"/>
+                                <FaLinkedin className="icons-footer"/>
                             </a>
                             <a href= "mailto: hannahcodes@protonmail.com">
-                                <FaEnvelope className="icons"/>
+                                <FaEnvelope className="icons-footer"/>
                             </a>
                             <a href= "https://github.com/hannahnmcdonald">
-                                <FaGithub className="icons"/>
+                                <FaGithub className="icons-footer"/>
                             </a>
                         </div>
                             <p> Created by Hannah McDonald ♥️</p>

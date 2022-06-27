@@ -335,8 +335,22 @@ input::placeholder, textarea::placeholder {
   margin-bottom: 2rem;
 }
 
+
+.icons-footer {
+  color: var(--primary-white);
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1.75rem;
+  margin-left: 1.75rem;
+  margin-bottom: 2rem;
+}
+
 .icons:hover {
   color: var(--secondary-color) !important;
+}
+
+.icons-footer:hover {
+  color: var(--neutral-color) !important;
 }
 
 footer {
