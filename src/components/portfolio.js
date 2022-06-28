@@ -6,7 +6,7 @@ import book from "../img/book.png"
 // import blog from "../img/blog.png"
 import checkmate from "../img/profile.png"
 import expanse from "../img/expanse.png"
-import weather from "../img/weather.png"
+//import weather from "../img/weather.png"
 // React-Icons //
 import { GoChevronRight } from 'react-icons/go';
 import { VscCode } from 'react-icons/vsc';
@@ -18,7 +18,7 @@ const work = () => {
     <section id="portfolio" className="portfolio row">
         <div className="container">
   
-          <div className="section-title pb-4">
+          <div className="section-title">
             <h1>Work</h1>
           </div>
 

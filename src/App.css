@@ -10,10 +10,10 @@ body {
 /* ROOT COLOR VARIABLES */
 :root {
   --primary-white: #ffffff;
-  --secondary-color: #54547a;
+  --secondary-color: #615c65;
   --primary-dark: rgba(255,255,255,0);
   --background-color: rgb(26, 29, 29);
-  --neutral-color: #26242c;
+  --neutral-color: #29342d;
   --black: #000000;
 }
 
@@ -65,7 +65,7 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(/src/img/headerimg.jpg) no-repeat;
+  background: url(/src/img/sky2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -93,7 +93,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   font-weight: 500;
-  color: var(--primary-white)
+  color: var(--primary-white);
 }
 
 /* React Particles */
@@ -361,7 +361,7 @@ footer {
 
 .portfolio {
   background-color: var(--neutral-color);
-  padding: 4rem;
+
 }
 
 .portfolio-links {
@@ -372,7 +372,7 @@ svg.icons.portfolio-icon {
   margin-bottom: 0;
 }
 
-.portfolio .portfolio-item {
+.portfolio-item {
   margin-bottom: 30px;
 }
 
