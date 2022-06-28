@@ -361,6 +361,7 @@ footer {
 
 .portfolio {
   background-color: var(--neutral-color);
+  padding-bottom: 5rem;
 
 }
 
@@ -575,4 +576,5 @@ svg.icons.portfolio-icon {
 
 .desc {
   color: var(--primary-white);
+  padding: 1rem
 }
