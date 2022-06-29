@@ -130,6 +130,13 @@ canvas.tsparticles-canvas-el {
   }
 }
 
+@media only screen and (min-width: 1100px) {
+  .portfolio-container-row {
+    padding-left: 6rem;
+    padding-right: 6rem
+  }
+}
+
 /* ABOUT */
 
 .about-img {

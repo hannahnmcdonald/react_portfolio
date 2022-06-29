@@ -2,27 +2,22 @@
 import React from 'react';
 // Portfolio Images //
 import book from "../img/book.png"
-// import heyo from "../img/heyo.png"
-// import blog from "../img/blog.png"
 import checkmate from "../img/profile.png"
 import expanse from "../img/expanse.png"
-//import weather from "../img/weather.png"
 // React-Icons //
 import { GoChevronRight } from 'react-icons/go';
 import { VscCode } from 'react-icons/vsc';
-// // Pop Up Box //
-// import { PopupManager, Popupboxcontainer } from 'react-popupbox';
 
 const work = () => {
     return (
-    <section id="portfolio" className="portfolio row">
+    <section id="portfolio" className="portfolio row portfolio-container-row">
         <div className="container">
   
           <div className="section-title">
             <h1>Work</h1>
           </div>
 
-          <div className="row">
+          <div className="row text-center px-5">
   
             <div className="col-lg-12 col-md-10 p-4">
               <div className="row text-center align-items-center">
@@ -30,7 +25,7 @@ const work = () => {
                   <img src={ book } className="img-fluid" alt="Book Club COllective"/>
                 </div>
                 <div className="col-sm desc">
-                  <h4>Book Club Collective</h4>
+                  <h4><b>Book Club Collective</b></h4>
                   <p className="desc">A full stack app where users can search for books using Google’s book API, leave reviews, and join book clubs with other readers. Book Club Collective uses a folder structure that matches the MVC paradigm as well as Node.js and Express to create a RESTful API. The site also uses MySQL and Sequelize for the database and npm star-rating.js to create a star rating system out of 5 for the book reviews and then averages them out per book.</p>
                   <p><b>Technologies: Handlebars, Node.js, MySQL, Sequelize, Express, and bcrypt.</b></p>
                   <div class="portfolio-links">
@@ -44,7 +39,7 @@ const work = () => {
             <div className="col-lg-12 col-md-10 p-4">
               <div className="row text-center align-items-center">
                 <div className="col-sm desc">
-                  <h4>Check Mate</h4>
+                  <h4><b>Check Mate</b></h4>
                   <p className="desc">CheckMate is an app to keep track of your game nights with friends and family! Check Mate is a full stack application enabling a user to create a profile, add friends, and create matches with friends for board games. Users can begin game events and record the results to the participating players' individual stats, stored in a Mongo Database, and shown on their profile, along with some of their favorite games and most won or lost games. Users are able to research the stats of their friends and themselves. They can also submit and review alternate game rule sets for their favorite games and can access game specific rules and information from the Board Game Atlas API.</p>
                   <p><b>Technologies: Js, MongoDB, Apollo, GraphQL, React, MaterialUI</b></p>
                   <div className="portfolio-links">
@@ -64,7 +59,7 @@ const work = () => {
                   <img src= { expanse } className="img-fluid" alt="Quiz"/>
                 </div>
                 <div className="col-sm desc ">
-                  <h4>The Expanse Trivia Quiz</h4>
+                  <h4><b>The Expanse Trivia Quiz</b></h4>
                   <p>Play this timed quiz game for the hit sci-fi series 'The Expanse.' This quiz follows questions from seasons 1-5. Test your knowledge, save your high score, and play against your friends!</p>
                   <p><b>Technologies: Vanilla Javascript, HTML, CSS</b></p>
                   <div className="portfolio-links">
@@ -74,54 +69,10 @@ const work = () => {
                 </div>
               </div>
             </div>
-  
-            {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div className="portfolio-wrap">
-                <img src={ heyo } className="img-fluid" alt="Heyo"/>
-                <div className="portfolio-info">
-                  <h4>Heyo! Simple Strategic Moves</h4>
-                  <p className="desc">An intuitive real estate app that helps home-buyers search for listings in their area by criteria and plots them on the map.<b>Technologies: Javascript, HTML, CSS, Google Maps API, Zillow API</b></p>
-                </div>
-                <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/Heyo-Simple-Strategic-Moves" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://oskwalker.github.io/Heyo-Simple-Strategic-Moves/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div className="portfolio-wrap">
-                <img src={ weather } className="img-fluid" alt="weather dashboard app"/>
-                <div className="portfolio-info">
-                  <h4>Weather Dashboard</h4>
-                  <p>Intuitive weather dashboard application that searches for the weather forecast by zip code & provides the 5-day forecast including temperature, humidity, wind speed, and UV index.</p>
-                </div>
-                <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/WeatherDashboard" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://hannahnmcdonald.github.io/WeatherDashboard/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                </div>
-              </div>
-            </div>
-  
-            <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div className="portfolio-wrap">
-                <img src={ blog } className="img-fluid" alt="Tech Blog"/>
-                <div className="portfolio-info">
-                  <h4>Tech Talk </h4>
-                  <p className="desc">A CMS-style blog site, where developers can publish blog posts and comment on other developers’ posts. Site is deployed to Heroku. <b>Technologies: Handlebars, Sequelize, Express, MySQL, and Node.js</b></p>
-                </div>
-                <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/Tech-Talk" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://tech-talk-blog.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                </div>
-              </div>
-            </div> */}
-
           </div>
-  
         </div>
     </section>
-    )
+  )
 }
 
 export default work
