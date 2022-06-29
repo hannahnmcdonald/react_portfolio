@@ -17,12 +17,13 @@ const header = () => {
                 <div className="main-info banner-text" id="overlay">
                     <div className="header-text responsive-headline">
                         <h1 className="responsive-headline"> I'm Hannah McDonald.</h1>
+                        <h3>I'm an Atlanta based <b> Full-Stack Web Developer.</b></h3>
 
-                        <Typed 
+                        {/* <Typed 
                         className="typed-text"
                         strings={["I'm an Atlanta based <b> Full-Stack Web Developer.</b>"]}
                         typeSpeed={50}
-                        />
+                        /> */}
                     </div>
                     <Particles
                         params={particles}

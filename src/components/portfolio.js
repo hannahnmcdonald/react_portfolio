@@ -21,7 +21,7 @@ const work = () => {
             <h1>Work</h1>
           </div>
 
-          <div className="row text-center px-5">
+          <div className="row text-center px-4">
   
             <div className="col-lg-12 col-md-10 p-4">
               <div className="row text-center align-items-center">
