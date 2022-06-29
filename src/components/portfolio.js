@@ -7,8 +7,12 @@ import expanse from "../img/expanse.png"
 // React-Icons //
 import { GoChevronRight } from 'react-icons/go';
 import { VscCode } from 'react-icons/vsc';
+// import { useEffect } from 'react';
+// TO DO: Restructure divs for proj to have photo first on mobile. UseEffect Hook to resize on screen change
+
 
 const work = () => {
+
     return (
     <section id="portfolio" className="portfolio row portfolio-container-row">
         <div className="container">
