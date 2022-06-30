@@ -13,8 +13,8 @@ const header = () => {
                 params={particles}
                 className="particles"
             /> */}
-            <div className="row banner">
-                <div className="main-info banner-text" id="overlay">
+            <div className="row">
+                <div className="main-info" id="overlay">
                     <div className="header-text responsive-headline">
                         <h1 className="responsive-headline"> I'm Hannah McDonald.</h1>
                         <h3>I'm an Atlanta based <b> Full-Stack Web Developer.</b></h3>
