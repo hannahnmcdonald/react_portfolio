@@ -21,7 +21,9 @@ import {
     SiHandlebarsdotjs,
     SiMaterialui,
     SiApollographql,
-    SiTypescript
+    SiTypescript,
+    SiExpress,
+    SiAzuredevops
 } from "react-icons/si";
 
 const skills = () => {
@@ -47,8 +49,10 @@ const skills = () => {
                         <SiHandlebarsdotjs className="display-4" title="Handlebars"/>
                         <SiMaterialui className="display-4" title="Material UI"/>
                         <SiApollographql className="display-4" title="Apollo GraphQL"/>
+                        <SiExpress className="display-4" title="Express.js"/>
                         <FaVuejs className="display-4" title="Vue.js"/>
                         <SiTypescript className="display-4" title="Typescript"/>
+                        <SiAzuredevops className="display-4" title="Azure DevOps"/>
                     </div>
                 </div>
             </div>
