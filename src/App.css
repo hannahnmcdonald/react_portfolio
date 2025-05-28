@@ -93,6 +93,7 @@ nav ul li {
 
 .header-text {
   margin-top: 15%;
+  justify-content: center;
 }
 
 .typed-text {
