@@ -24,12 +24,15 @@ const navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
                         {/* Scroll to top option */}
-                        <ScrollToTop smooth component={<BsArrowUpCircle/>} />
+                        <ScrollToTop smooth component={<BsArrowUpCircle/>} /> 
                         <li className="nav-item">
                             <Link smooth={true} to="about" className="nav-link">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="portfolio" className="nav-link" >Work</Link>
+                            <Link smooth={true} to="work" className="nav-link" >Work</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link smooth={true} to="portfolio" className="nav-link" >Projects</Link>
                         </li>
                         <li className="nav-item">
                             <Link smooth={true} to="skills" className="nav-link">Skills</Link>

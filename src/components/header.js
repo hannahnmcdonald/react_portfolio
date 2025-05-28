@@ -3,8 +3,8 @@ import React from 'react';
 // Import React-Typed //
 import Typed from 'react-typed';
 // Import Particles //
-import Particles from "react-tsparticles";
-import particles from '../const/particles';
+// import Particles from "react-tsparticles";
+// import particles from '../const/particles';
 
 const header = () => {
     return (
@@ -25,10 +25,10 @@ const header = () => {
                         typeSpeed={50}
                         /> */}
                     </div>
-                    <Particles
+                    {/* <Particles
                         params={particles}
                         className="particles"
-                    />
+                    /> */}
                 </div>
             </div>
          </div>
