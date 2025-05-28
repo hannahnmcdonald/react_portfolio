@@ -77,24 +77,6 @@ const Portfolio = () => {
             </div>
           }
 
-
-            {/* <div className="col-lg-12 col-md-10 p-4">
-              <div className="row text-center align-items-center">
-                <div className="col-sm desc">
-                  <h4><b>Check Mate</b></h4>
-                  <p className="desc">CheckMate is an app to keep track of your game nights with friends and family! Check Mate is a full stack application enabling a user to create a profile, add friends, and create matches with friends for board games. Users can begin game events and record the results to the participating players' individual stats, stored in a Mongo Database, and shown on their profile, along with some of their favorite games and most won or lost games. Users are able to research the stats of their friends and themselves. They can also submit and review alternate game rule sets for their favorite games and can access game specific rules and information from the Board Game Atlas API.</p>
-                  <p><b>Technologies: Js, MongoDB, Apollo, GraphQL, React, MaterialUI</b></p>
-                  <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/check-mate" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
-                  </div>
-                </div>
-                <div className="col-sm">
-                  <img src= { checkmate } className="img-fluid" alt="Check-Mate"/>
-                </div>
-              </div>
-            </div> */}
-
             <div className="col-lg-12 col-md-10 p-4">
               <div className="row text-center align-items-center">
                 <div className="col-sm">

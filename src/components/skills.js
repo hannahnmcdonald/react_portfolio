@@ -1,6 +1,6 @@
 // Import React //
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 // Import Skills Icons //
 import {
     FaHtml5,
@@ -63,7 +63,7 @@ const Skills = () => {
         { component: <SiApachekafka />, title: "Kafka" },
         { component: <FaAws />, title: "AWS" },
         { component: <FaGitlab />, title: "Gitlab" },
-        { component: <SiNestjs />, title: "Nestjs" },
+        { component: <SiNestjs />, title: "Nest.js" },
       ];
     
     return (
