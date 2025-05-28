@@ -1,7 +1,7 @@
 // Import React //
 import React from 'react';
 // Import about me image //
-import author from "../img/aboutme.jpg";
+import author from "../img/linkedinphoto.png";
 
 const about = () => {
     return (

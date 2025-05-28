@@ -17,6 +17,10 @@ body {
   --black: #000000;
 }
 
+#overlay {
+  max-width: 1652px;
+}
+
 /* NAVBAR */
 
 nav {
@@ -370,7 +374,6 @@ footer {
 .portfolio {
   background-color: var(--neutral-color);
   padding-bottom: 5rem;
-
 }
 
 .portfolio-links {
