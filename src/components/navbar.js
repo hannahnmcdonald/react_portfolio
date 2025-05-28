@@ -1,15 +1,15 @@
 // Import React //
-import React from 'react'
+import React from "react";
 // React Font Awesome Import //
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // Hamburger menu svg icon //
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 // Import React-scroll //
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 // Import Scroll to Top npm //
 import ScrollToTop from "react-scroll-to-top";
 // React-Icons //
-import { BsArrowUpCircle } from 'react-icons/bs';
+import { BsArrowUpCircle } from "react-icons/bs";
 
 // NAVBAR //
 const navbar = () => {
@@ -35,7 +35,7 @@ const navbar = () => {
                             <Link smooth={true} to="portfolio" className="nav-link" >Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="skills" className="nav-link">Skills</Link>
+                            <Link smooth={true} to="skills" className="nav-link" >Skills</Link>
                         </li>
                         <li className="nav-item">
                             <Link smooth={true} to="resume" className="nav-link" >Resume</Link>

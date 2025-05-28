@@ -1,9 +1,5 @@
-import './App.css';
-// Import Bootstrap //
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-// Import Particles.js //
-// import Particles from "react-particles-js";
-// Import React Components //
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import About from "./components/about";

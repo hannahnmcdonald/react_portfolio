@@ -3,7 +3,7 @@ import React from 'react';
 // Download Icon from React-Icons //
 import { FaFileDownload } from 'react-icons/fa';
 
-const resume = () => {
+const Resume = () => {
     return (
         <div className="container py-5">
             <div className="row">
@@ -20,4 +20,4 @@ const resume = () => {
     )
 }
 
-export default resume
+export default Resume

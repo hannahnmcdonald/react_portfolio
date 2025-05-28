@@ -67,7 +67,7 @@ const Skills = () => {
       ];
     
     return (
-        <div className="skills-wrapper">
+        <div className="skills-wrapper" id="skills">
             <div className=" skills-container container"> 
             <h1>Skills</h1>
                 <div>
