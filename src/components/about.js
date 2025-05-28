@@ -17,7 +17,7 @@ const about = () => {
                        About
                     </h1>
                     <h5 className="about-text">
-                    I'm a Full-Stack Developer who's passionate about creating innovative web experiences. I graduated from Georgia Tech's Full Stack Coding Bootcamp in 2021 and have fallen in love with the combination of creativity and problem-solving that I have found in Web Development. Check out some of my work below!
+                    I'm a Full-Stack Developer with a background in nursing and a life-ling dedication to learning. I have extensive experience working collaboratively with multiple teams in high-pressure situations, exceptional attention to detail, and the strong ability to multitask and manage time and resources to achieve the most effective outcome. I am able to adapt to and work with varying technologies/roles and am passionate about creating quality code.
                     </h5>
                </div>
             </div>

@@ -1,20 +1,21 @@
 // Import React //
 import React from 'react';
+import { useState, useEffect } from 'react';
 // Import Skills Icons //
 import {
     FaHtml5,
     FaCss3,
-    FaBootstrap,
+    FaAws,
     FaReact,
     FaNpm,
     FaGitAlt,
     FaGithubSquare,
-    FaVuejs
+    FaVuejs,
+    FaGitlab
   } from "react-icons/fa";
 import { 
     SiMysql, 
     SiMongodb,
-    SiJquery,
     SiSequelize,
     SiGraphql,
     SiJavascript,
@@ -23,41 +24,71 @@ import {
     SiApollographql,
     SiTypescript,
     SiExpress,
-    SiAzuredevops
+    SiDocker,
+    SiApachekafka,
+    SiKubernetes,
+    SiPostgresql,
+    SiNewrelic,
+    SiSnowflake,
+    SiGrafana,
+    SiNestjs,
 } from "react-icons/si";
 
-const skills = () => {
+const Skills = () => {
+    const [hoveredTitle, setHoveredTitle] = useState("");
+    const icons = [
+        { component: <SiMysql />, title: "MySQL" },
+        { component: <SiMongodb />, title: "MongoDB" },
+        { component: <SiSequelize />, title: "Sequelize" },
+        { component: <SiGraphql />, title: "GraphQL" },
+        { component: <SiJavascript />, title: "JavaScript" },
+        { component: <SiHandlebarsdotjs />, title: "Handlebars.js" },
+        { component: <SiMaterialui />, title: "Material UI" },
+        { component: <SiApollographql />, title: "Apollo GraphQL" },
+        { component: <SiTypescript />, title: "TypeScript" },
+        { component: <FaHtml5 />, title: "HTML5" },
+        { component: <FaCss3 />, title: "CSS3" },
+        { component: <FaReact />, title: "React" },
+        { component: <FaNpm />, title: "npm" },
+        { component: <FaGitAlt />, title: "Git" },
+        { component: <FaGithubSquare />, title: "GitHub" },
+        { component: <FaVuejs />, title: "Vue.js" },
+        { component: <SiExpress />, title: "Express" },
+        { component: <SiPostgresql />, title: "Postgres" },
+        { component: <SiSnowflake />, title: "Snowflake" },
+        { component: <SiNewrelic />, title: "New Relic" },
+        { component: <SiGrafana />, title: "Grafana" },
+        { component: <SiKubernetes />, title: "Kubernetes" },
+        { component: <SiDocker />, title: "Docker" },
+        { component: <SiApachekafka />, title: "Kafka" },
+        { component: <FaAws />, title: "AWS" },
+        { component: <FaGitlab />, title: "Gitlab" },
+        { component: <SiNestjs />, title: "Nestjs" },
+      ];
+    
     return (
         <div className="skills-wrapper">
             <div className=" skills-container container"> 
             <h1>Skills</h1>
+                <div>
+                    { hoveredTitle ? <h5>{hoveredTitle}</h5> : <h5>&nbsp;</h5> }
+                </div>
                 <div className="row">
-                    <div className="col-lg">
-                        <FaHtml5 className="display-4" title="HTML5"/>
-                        <FaCss3 className="display-4" title="CSS3"/>
-                        <FaBootstrap className="display-4" title="Bootstrap"/>
-                        <FaReact className="display-4" title="React"/>
-                        <FaNpm className="display-4" title="npm"/>
-                        <FaGitAlt className="display-4" title="Git"/>
-                        <FaGithubSquare className="display-4" title="Github"/>
-                        <SiMysql className="display-4" title="SQL"/>
-                        <SiMongodb className="display-4" title="MongoDB"/>
-                        <SiJquery className="display-4" title="JQuery"/>
-                        <SiSequelize className="display-4" title="Sequelize"/>
-                        <SiGraphql className="display-4" title="GraphQL"/>
-                        <SiJavascript className="display-4" title="Javascript"/>
-                        <SiHandlebarsdotjs className="display-4" title="Handlebars"/>
-                        <SiMaterialui className="display-4" title="Material UI"/>
-                        <SiApollographql className="display-4" title="Apollo GraphQL"/>
-                        <SiExpress className="display-4" title="Express.js"/>
-                        <FaVuejs className="display-4" title="Vue.js"/>
-                        <SiTypescript className="display-4" title="Typescript"/>
-                        <SiAzuredevops className="display-4" title="Azure DevOps"/>
-                    </div>
+                        {icons.map((icon, index) => (
+                             <div
+                                key={index}
+                                onMouseEnter={() => setHoveredTitle(icon.title)}
+                                onMouseLeave={() => setHoveredTitle("")}
+                                className="display-4 col-lg"
+                            >
+                                {icon.component}
+                            </div>
+                        )
+                    )}
                 </div>
             </div>
         </div>
     )
 }
 
-export default skills
+export default Skills
