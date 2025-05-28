@@ -11,7 +11,7 @@ const resume = () => {
                 <h6>You can download a PDF of my resume here</h6>
                 <div className="columns download">
                     {/* TO DO: EMBED RESUME LINK */}
-                    <a href= "https://drive.google.com/file/d/1HpERXzc2HvMRMPmcEDuXEmxvw6lzFznh/view?usp=sharing" className="button download-button">
+                    <a href= "https://docs.google.com/document/d/1zfQca_sfDhWV2dMa0v8I27MNE0_DzMnfXSE0GNqITqw/edit?usp=sharing" className="button download-button">
                         <FaFileDownload className= "resume"/> Download Resume
                     </a>
                 </div>
