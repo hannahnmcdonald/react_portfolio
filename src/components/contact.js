@@ -56,7 +56,7 @@ const Contact = () => {
                 {/* Form Submit */}
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row"> 
-                        <div className="col-md-6 col-xs-12">
+                        <div className="col-md-6 col-xs-12 p-2">
                             {/* Name Input */}
                             <input 
                             id="name"

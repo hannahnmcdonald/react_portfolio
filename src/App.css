@@ -17,10 +17,6 @@ body {
   --black: #000000;
 }
 
-#overlay {
-  max-width: 1652px;
-}
-
 /* NAVBAR */
 
 nav {
@@ -78,6 +74,7 @@ nav ul li {
 
 .row {
   justify-content: center;
+  --bs-gutter-x: 0 !important;
 }
 
 .skill-text {
@@ -91,11 +88,7 @@ nav ul li {
 }
 
 .main-info {
-  display: flex;
   background-size: cover;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
