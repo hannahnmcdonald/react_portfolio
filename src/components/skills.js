@@ -33,6 +33,7 @@ import {
     SiGrafana,
     SiNestjs,
     SiStorybook,
+    SiJest
 } from "react-icons/si";
 
 const Skills = () => {
@@ -65,7 +66,8 @@ const Skills = () => {
         { component: <FaAws />, title: "AWS" },
         { component: <FaGitlab />, title: "Gitlab" },
         { component: <SiNestjs />, title: "Nest.js" },
-        { component: <SiStorybook />, title: "Storybook" }
+        { component: <SiStorybook />, title: "Storybook" },
+        { component: <SiJest />, title: "Jest" }
       ];
     
     return (
