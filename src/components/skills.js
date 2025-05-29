@@ -68,7 +68,7 @@ const Skills = () => {
         { component: <FaGitlab />, title: "Gitlab" },
         { component: <SiNestjs />, title: "Nest.js" },
         { component: <SiStorybook />, title: "Storybook" },
-        { component: <SiJest />, title: "Jest" }
+        { component: <SiJest />, title: "Jest" },
         { component: <FaYarn />, title: "Yarn" }
       ];
     
