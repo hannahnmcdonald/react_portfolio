@@ -5,7 +5,8 @@ import book from "../img/book.png"
 import checkmate from "../img/profile.png"
 import expanse from "../img/expanse.png"
 // React-Icons //
-import { GoChevronRight } from 'react-icons/go';
+// import { GoChevronRight } from 'react-icons/go';
+import { HiOutlineExternalLink } from 'react-icons/hi';
 import { VscCode } from 'react-icons/vsc';
 import { useMediaQuery } from 'react-responsive';
 
@@ -32,7 +33,7 @@ const Portfolio = () => {
                   <p><b>Technologies: Handlebars, Node.js, MySQL, Sequelize, Express, and bcrypt.</b></p>
                   <div class="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://intense-tor-64466.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://intense-tor-64466.herokuapp.com/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                 </div>
                 </div>
               </div>
@@ -51,7 +52,7 @@ const Portfolio = () => {
                     <p><b>Technologies: Js, MongoDB, Apollo, GraphQL, React, MaterialUI</b></p>
                   <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/check-mate" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                   </div>
                   </div>
                 </div>
@@ -67,7 +68,7 @@ const Portfolio = () => {
                   <p><b>Technologies: Js, MongoDB, Apollo, GraphQL, React, MaterialUI</b></p>
                   <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/check-mate" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://check-mate-game-app.herokuapp.com/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                   </div>
                 </div>
                 <div className="col-sm">
@@ -88,7 +89,7 @@ const Portfolio = () => {
                   <p><b>Technologies: Vanilla Javascript, HTML, CSS</b></p>
                   <div className="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><GoChevronRight className="icons portfolio-icon" /></a>
+                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                   </div>
                 </div>
               </div>

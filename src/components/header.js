@@ -8,7 +8,6 @@ const header = () => {
                     <div className="header-text">
                         <h1>I'm Hannah McDonald.</h1>
                         <h3>I'm an Atlanta based <b> Full-Stack Web Developer.</b></h3>
-
                     </div>
                 </div>
             </div>
