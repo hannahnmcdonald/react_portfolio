@@ -11,7 +11,8 @@ import {
     FaGitAlt,
     FaGithubSquare,
     FaVuejs,
-    FaGitlab
+    FaGitlab,
+    FaYarn
   } from "react-icons/fa";
 import { 
     SiMysql, 
@@ -68,6 +69,7 @@ const Skills = () => {
         { component: <SiNestjs />, title: "Nest.js" },
         { component: <SiStorybook />, title: "Storybook" },
         { component: <SiJest />, title: "Jest" }
+        { component: <FaYarn />, title: "Yarn" }
       ];
     
     return (
