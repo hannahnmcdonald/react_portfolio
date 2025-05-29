@@ -147,7 +147,7 @@ const Contact = () => {
                                 {errors.subject && errors.subject.message}
                             </span> */}
                         </div>
-                        <div className="col-md-6 col-xs-12">
+                        <div className="col-md-6 col-xs-12 p-2">
                             {/* Message */}
                             <textarea
                             id="message"
