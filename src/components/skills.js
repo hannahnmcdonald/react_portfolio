@@ -70,6 +70,7 @@ const Skills = () => {
         <div className="skills-wrapper" id="skills">
             <div className=" skills-container container"> 
             <h1>Skills</h1>
+            <h6>These are some of the languages, frameworks, and tools that I have experience working with.</h6>
                 <div className="skill-text">
                     { hoveredTitle ? <h5 className="hover-text">{hoveredTitle}</h5> : <h5>&nbsp;</h5> }
                 </div>

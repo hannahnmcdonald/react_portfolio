@@ -79,6 +79,7 @@ nav ul li {
 
 .skill-text {
   color: var(--black);
+  padding-bottom: 0.75rem;
 }
 
 .hover-text {
