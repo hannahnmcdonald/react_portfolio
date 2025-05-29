@@ -75,18 +75,18 @@ const Skills = () => {
                     { hoveredTitle ? <h5 className="hover-text">{hoveredTitle}</h5> : <h5>&nbsp;</h5> }
                 </div>
                 <div className="row text-center">
-  {icons.map((icon, index) => (
-    <div
-      key={index}
-      onMouseEnter={() => setHoveredTitle(icon.title)}
-      onMouseLeave={() => setHoveredTitle("")}
-      className="col-4 col-sm-2 mb-3"
-    >
-      <div className="display-5 d-flex justify-content-center py-2">
-        {icon.component}
-      </div>
-    </div>
-  ))}
+                    {icons.map((icon, index) => (
+                     <div
+                        key={index}
+                        onMouseEnter={() => setHoveredTitle(icon.title)}
+                        onMouseLeave={() => setHoveredTitle("")}
+                        className="col-4 col-sm-2 mb-3"
+                    >
+                <div className="display-5 d-flex justify-content-center py-2">
+                     {icon.component}
+                </div>
+            </div>
+        ))}
 </div>
             </div>
         </div>
