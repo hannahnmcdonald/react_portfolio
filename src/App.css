@@ -76,6 +76,20 @@ nav ul li {
   color: var(--primary-white);
 }
 
+.row {
+  justify-content: center;
+}
+
+.skill-text {
+  color: var(--black);
+}
+
+.hover-text {
+  font-weight: 800;
+  font-size: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
 .main-info {
   display: flex;
   background-size: cover;

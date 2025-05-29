@@ -70,8 +70,8 @@ const Skills = () => {
         <div className="skills-wrapper" id="skills">
             <div className=" skills-container container"> 
             <h1>Skills</h1>
-                <div>
-                    { hoveredTitle ? <h5>{hoveredTitle}</h5> : <h5>&nbsp;</h5> }
+                <div className="skill-text">
+                    { hoveredTitle ? <h5 className="hover-text">{hoveredTitle}</h5> : <h5>&nbsp;</h5> }
                 </div>
                 <div className="row">
                         {icons.map((icon, index) => (
