@@ -24,7 +24,6 @@
 
 **npm Packages:** 
 1. [Font Awesome Icons](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
-1. [react-particles-js](https://www.npmjs.com/package/particlesjs)
 1. [react-icons](https://www.npmjs.com/package/react-icons)
 1. [react scroll](https://www.npmjs.com/package/react-scroll)
 1. [react-scroll-to-top](https://www.npmjs.com/package/react-scroll-to-top)
