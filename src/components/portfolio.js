@@ -30,10 +30,10 @@ const Portfolio = () => {
                 <div className="col-sm desc">
                   <h4><b>Book Club Collective</b></h4>
                   <p className="desc">A full stack app where users can search for books using Google’s book API, leave reviews, and join book clubs with other readers. Book Club Collective uses a folder structure that matches the MVC paradigm as well as Node.js and Express to create a RESTful API. The site also uses MySQL and Sequelize for the database and npm star-rating.js to create a star rating system out of 5 for the book reviews and then averages them out per book.</p>
-                  <p><b>Technologies: Handlebars, Node.js, MySQL, Sequelize, Express, and bcrypt.</b></p>
+                  <p><b>Technologies: Handlebars, Node.js, Postgres, Knex, Express, and bcrypt.</b></p>
                   <div class="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://intense-tor-64466.herokuapp.com/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
+                    <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                 </div>
                 </div>
               </div>
