@@ -33,7 +33,7 @@ const Portfolio = () => {
                   <p><b>Technologies: Handlebars, Node.js, Postgres, Knex, Express, and bcrypt.</b></p>
                   <div class="portfolio-links">
                     <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://github.com/hannahnmcdonald/Book-Club-Collective" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
+                    <a href="https://book-club-collective-production.up.railway.app/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
                 </div>
                 </div>
               </div>
