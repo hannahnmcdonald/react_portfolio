@@ -1,6 +1,4 @@
-// Import React //
 import React from 'react';
-// Download Icon from React-Icons //
 import { FaFileDownload } from 'react-icons/fa';
 
 const Resume = () => {
