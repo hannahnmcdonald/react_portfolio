@@ -38,7 +38,6 @@ URL: https://www.hannahmcdonald.dev/
 
 Deployed site: https://hannahmcdonald.dev
 
-
 ## License
 
 This repository is under the MIT License.
