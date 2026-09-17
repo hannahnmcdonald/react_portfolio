@@ -17,7 +17,7 @@ const about = () => {
                        About
                     </h1>
                     <h5 className="about-text">
-                    I'm a full-stack engineer at Pluralsight, where I build accessible learning tools used by over a million learners. I work across React, TypeScript, Node.js, Kafka, and Postgres, and I'm usually the one digging into shared component libraries, load testing before a big launch, or making sure things work with a screen reader. Before tech, I was an ER nurse, which makes most production incidents feel pretty chill.
+                    I build accessible learning tools at Pluralsight used by over a million learners. I work across React, TypeScript, Node.js, Kafka, and Postgres, and I especially enjoy building shared component libraries and making sure everything works with a screen reader. On the backend, I build the APIs and data pipelines behind our analytics, including validation jobs that catch bad data before anyone else does. Before tech, I was an ER nurse, which makes most production incidents feel pretty chill.
                     </h5>
                </div>
             </div>
