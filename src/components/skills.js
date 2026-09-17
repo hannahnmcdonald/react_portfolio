@@ -34,7 +34,9 @@ import {
     SiGrafana,
     SiNestjs,
     SiStorybook,
-    SiJest
+    SiJest,
+    SiClaude,
+    SiGithubcopilot
 } from "react-icons/si";
 
 const Skills = () => {
@@ -69,7 +71,9 @@ const Skills = () => {
         { component: <SiNestjs />, title: "Nest.js" },
         { component: <SiStorybook />, title: "Storybook" },
         { component: <SiJest />, title: "Jest" },
-        { component: <FaYarn />, title: "Yarn" }
+        { component: <FaYarn />, title: "Yarn" },
+        { component: <SiClaude />, title: "Claude" },
+        { component: <SiGithubcopilot />, title: "Github Copilot" }
       ];
     
     return (
