@@ -17,7 +17,7 @@ const about = () => {
                        About
                     </h1>
                     <h5 className="about-text">
-                    I'm a Full-Stack Developer with a background in nursing and a life-long dedication to learning. I have extensive experience working collaboratively with multiple teams in high-pressure situations, exceptional attention to detail, and a strong ability to multitask and manage time and resources to achieve the most effective outcome. I am able to adapt to and work with varying technologies/roles and am passionate about creating quality code.
+                    I'm a full-stack engineer at Pluralsight, where I build accessible learning tools used by over a million learners. I work across React, TypeScript, Node.js, Kafka, and Postgres, and I'm usually the one digging into shared component libraries, load testing before a big launch, or making sure things work with a screen reader. Before tech, I was an ER nurse, which makes most production incidents feel pretty chill.
                     </h5>
                </div>
             </div>
