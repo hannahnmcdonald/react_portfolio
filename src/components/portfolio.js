@@ -3,7 +3,6 @@ import React from 'react';
 // Portfolio Images //
 import book from "../img/book.png"
 import checkmate from "../img/profile.png"
-import expanse from "../img/expanse.png"
 // React-Icons //
 // import { GoChevronRight } from 'react-icons/go';
 import { HiOutlineExternalLink } from 'react-icons/hi';
@@ -77,23 +76,6 @@ const Portfolio = () => {
               </div>
             </div>
           }
-
-            <div className="col-lg-12 col-md-10 p-4">
-              <div className="row text-center align-items-center">
-                <div className="col-sm">
-                  <img src= { expanse } className="img-fluid" alt="Quiz"/>
-                </div>
-                <div className="col-sm desc ">
-                  <h4><b>The Expanse Trivia Quiz</b></h4>
-                  <p>Play this timed quiz game for the hit sci-fi series 'The Expanse.' This quiz follows questions from seasons 1-5. Test your knowledge, save your high score, and play against your friends!</p>
-                  <p><b>Technologies: Vanilla Javascript, HTML, CSS</b></p>
-                  <div className="portfolio-links">
-                    <a href="https://github.com/hannahnmcdonald/TheExpanseTriviaQuiz/" title="Github Repo"><VscCode className="icons portfolio-icon" /></a>
-                    <a href="https://hannahnmcdonald.github.io/TheExpanseTriviaQuiz/" title="Website"><HiOutlineExternalLink className="icons portfolio-icon" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
     </section>
