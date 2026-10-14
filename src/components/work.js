@@ -28,6 +28,7 @@ const Work = () => {
                     <li>Built learner-facing assessment products in React, TypeScript, Node.js, Postgres, Docker, and Kafka, including criterion-referenced assessments taken by over 1.2 million learners.</li>
                     <li>Shipped a new assessment and analytics experience for a 70k-user enterprise rollout; load tested with k6 under hundreds of concurrent users and resolved Postgres read/write contention before launch.</li>
                     <li>Led incremental rollout of a question-translation pipeline integrating a third-party translation API, extending assessment content to eight locales with validation gating to prevent incomplete translations from reaching live content.</li>
+                    <li>Practiced spec-driven development with Claude Code, writing detailed implementation specs that guided own AI-assisted work and ready-to-build cards for teammates; built Claude Code skills for new endpoints, PR review, and PR descriptions that were adopted by the team.</li>
                     <li>Designed internal APIs and maintained Kafka topics for cross-team analytics, and built scheduled jobs to detect and republish missed records.</li>
                     <li>Owned a shared React component library used across three assessment products, automating versioning and publishing via Semantic Release and Artifactory to eliminate duplicate implementations.</li>
                     <li>Embedded assessments as a micro-frontend in the video player using Webpack Module Federation, partnering with the video team.</li>
